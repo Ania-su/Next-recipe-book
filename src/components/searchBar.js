@@ -7,7 +7,7 @@ export default function SearchBar({ searchQuery, setSearchQuery }) {
   };
 
   return (
-    <div className={styles.items}>
+    <div className={styles.items}>  
       <Search className={styles.searchIcon}/>
       <input
         type="text"
